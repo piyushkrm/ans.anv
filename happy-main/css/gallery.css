@@ -26,13 +26,14 @@ h3 a {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-bottom: 50px;
 }
 
 .container .card {
   position: relative;
-  width: 280px;
+  width: 260px;
   height: 350px;
-  margin: 40px;
+  margin: 35px;
 }
 
 .container .cards {
@@ -117,7 +118,7 @@ h3 a {
   transform: rotate(-10deg);
 }
 .container .cards:nth-of-type(23) {
-  transform: rotate(-25deg);
+  transform: rotate(5deg);
 }
 
 
