@@ -11,7 +11,7 @@ body {
   align-items: center;
   min-height: 100vh;
   background: linear-gradient(to bottom, #1d45b3 0%, #761a63 75%, #e6612c 100%);
-  padding: 20px;
+  /* padding: 10px; */
 }
 .text h1,
 h3 a {
@@ -31,15 +31,15 @@ h3 a {
 
 .container .card {
   position: relative;
-  width: 260px;
-  height: 350px;
+  width: 270px;
+  height: 340px;
   margin: 35px;
 }
 
 .container .cards {
   position: relative;
-  width: 280px;
-  height: 190px;
+  width: 250px;
+  height: 170px;
   margin: 50px;
 }
 
@@ -118,7 +118,7 @@ h3 a {
   transform: rotate(-10deg);
 }
 .container .cards:nth-of-type(23) {
-  transform: rotate(5deg);
+  transform: rotate(25deg);
 }
 
 
@@ -144,12 +144,12 @@ h3 a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 255px;
-  height: 325px;
-  border: 25px solid #ffffff6f;
-  z-index: 1;
+  width: 235px;
+  height: 315px;
+  border: 25px solid #7fd4b9;
+  z-index: 10;
   background: linear-gradient(145deg, #991515, #e6e6e6);
-  box-shadow: 7px 7px 21px #4b494971, -7px -7px 21px #00000062;
+  box-shadow: 7px 7px 21px #f8359a71, -7px -7px 21px #dae42462;
   background: transparent;
 }
 
@@ -158,12 +158,12 @@ h3 a {
   position: absolute;
   top: 0;
   left: 0;
-  width: 255px;
-  height: 195px;
-  border: 25px solid #ffffff6f;
-  z-index: 1;
+  width: 220px;
+  height: 185px;
+  border: 25px solid #7fd4b9;
+  z-index: 10;
   background: linear-gradient(145deg, #991515, #e6e6e6);
-  box-shadow: 7px 7px 21px #4b494971, -7px -7px 21px #00000062;
+  box-shadow: 7px 7px 21px #f8359a71, -7px -7px 21px #dae42462;
   background: transparent;
 }
 
