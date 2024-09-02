@@ -32,20 +32,105 @@ h3 a {
   position: relative;
   width: 280px;
   height: 350px;
-  margin: 30px;
+  margin: 40px;
 }
 
+.container .cards {
+  position: relative;
+  width: 280px;
+  height: 190px;
+  margin: 50px;
+}
+
+.container .card:nth-of-type(1) {
+  transform: rotate(-20deg);
+}
 .container .card:nth-of-type(2) {
-  transform: rotate(5deg);
+  transform: rotate(7deg);
+}
+.container .card:nth-of-type(3) {
+  transform: rotate(-9deg);
 }
 .container .card:nth-of-type(4) {
-  transform: rotate(5deg);
+  transform: rotate(-35deg);
+}
+
+
+.container .card:nth-of-type(5) {
+  transform: rotate(8deg);
 }
 .container .card:nth-of-type(6) {
+  transform: rotate(-23deg);
+}
+.container .card:nth-of-type(7) {
+  transform: rotate(-46deg);
+}
+.container .card:nth-of-type(8) {
   transform: rotate(5deg);
 }
 
+
+.container .card:nth-of-type(9) {
+  transform: rotate(-11deg);
+}
+.container .card:nth-of-type(10) {
+  transform: rotate(23deg);
+}
+.container .card:nth-of-type(11) {
+  transform: rotate(-53deg);
+}
+.container .card:nth-of-type(12) {
+  transform: rotate(65deg);
+
+
+}
+.container .card:nth-of-type(13) {
+  transform: rotate(-27deg);
+}
+.container .card:nth-of-type(14) {
+  transform: rotate(21deg);
+}
+.container .card:nth-of-type(15) {
+  transform: rotate(-19deg);
+}
+.container .card:nth-of-type(16) {
+  transform: rotate(29deg);
+}
+
+
+.container .cards:nth-of-type(17) {
+  transform: rotate(-40deg);
+}
+.container .cards:nth-of-type(18) {
+  transform: rotate(10deg);
+}
+.container .cards:nth-of-type(19) {
+  transform: rotate(-3deg);
+}
+.container .cards:nth-of-type(20) {
+  transform: rotate(-35deg);
+}
+.container .cards:nth-of-type(21) {
+  transform: rotate(15deg);
+}
+.container .cards:nth-of-type(22) {
+  transform: rotate(-10deg);
+}
+.container .cards:nth-of-type(23) {
+  transform: rotate(-25deg);
+}
+
+
+
 .container .card .image {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  transform: translate(10px, 10px);
+}
+
+.container .cards .image {
   position: relative;
   width: 100%;
   height: 100%;
@@ -60,6 +145,20 @@ h3 a {
   left: 0;
   width: 255px;
   height: 325px;
+  border: 25px solid #ffffff6f;
+  z-index: 1;
+  background: linear-gradient(145deg, #991515, #e6e6e6);
+  box-shadow: 7px 7px 21px #4b494971, -7px -7px 21px #00000062;
+  background: transparent;
+}
+
+.container .cards:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 255px;
+  height: 195px;
   border: 25px solid #ffffff6f;
   z-index: 1;
   background: linear-gradient(145deg, #991515, #e6e6e6);
@@ -122,28 +221,28 @@ h3 a {
 .container .card:nth-of-type(16)::before {
   filter: url(#wavy1);
 }
-.container .card:nth-of-type(17)::before {
+.container .cards:nth-of-type(17)::before {
   filter: url(#wavy2);
 }
-.container .card:nth-of-type(18)::before {
+.container .cards:nth-of-type(18)::before {
   filter: url(#wavy1);
 }
-.container .card:nth-of-type(19)::before {
+.container .cards:nth-of-type(19)::before {
   filter: url(#wavy2);
 }
-.container .card:nth-of-type(20)::before {
+.container .cards:nth-of-type(20)::before {
   filter: url(#wavy3);
 }
-.container .card:nth-of-type(21)::before {
+.container .cards:nth-of-type(21)::before {
   filter: url(#wavy1);
 }
-.container .card:nth-of-type(22)::before {
+.container .cards:nth-of-type(22)::before {
   filter: url(#wavy2);
 }
-.container .card:nth-of-type(23)::before {
+.container .cards:nth-of-type(23)::before {
   filter: url(#wavy3);
 }
-.container .card:nth-of-type(24)::before {
+.container .cards:nth-of-type(24)::before {
   filter: url(#wavy1);
 }
 
@@ -186,7 +285,28 @@ span {
   transition-duration: 1s;
 }
 
+.container .cards .infoo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 40px 30px 20px 40px;
+  transform: translate(10px, 10px);
+  text-align: center;
+  background-color: transparent;
+  color: #fff;
+  line-height: 1.4;
+  font-size: 15px;
+  opacity: 0;
+  transition-duration: 1s;
+}
+
 .container .card:hover .info {
+  opacity: 1;
+}
+
+.container .cards:hover .infoo {
   opacity: 1;
 }
 
